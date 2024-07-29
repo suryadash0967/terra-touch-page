@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Prakriti | Terra Touch</title>
+</head>
+
+<body>
+    <div class="navBar">
+        <img src="prakriti-logo-img.png" class="prakriti-logo">
+
+
+
+
+        <div id="menuToggle">
+            <input type="checkbox" />
+
+            <div id="menuOverlay"></div>
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+
+            <ul id="menu">
+                <a href="#">
+                    <li>Home</li>
+                </a>
+                <a href="https://prakriti-about.vercel.app/">
+                    <li>About</li>
+                </a>
+                <div class="collections-sidebar-menu">
+
+                    <label for="touch">
+                        <li>Collections<i class='bx bxs-chevron-down'></i></li>
+                    </label>
+
+
+                    <nav>
+
+                        <input type="checkbox" id="touch">
+
+                        <ul class="slide">
+                            <a class="collections-redirect" href="#">
+                                <li>
+                                    <img src="sabai-treasures.png" class="collections-img">
+                                    <div>Sabai Treasures</div>
+                                </li>
+                            </a>
+                            <a class="collections-redirect" href="#">
+                                <li>
+                                    <img src="bamboo-bliss.png" class="collections-img">
+                                    <div>Bamboo Bliss</div>
+                                </li>
+                            </a>
+                            <a class="collections-redirect" href="#">
+                                <li>
+                                    <img src="terra-touch.png" class="collections-img">
+                                    <div>Terra Touch</div>
+                                </li>
+                            </a>
+                            <a class="collections-redirect" href="#">
+                                <li>
+                                    <img src="loom-legacy.png" class="collections-img">
+                                    <div>Loom Legacy</div>
+                                </li>
+                            </a>
+                            <a class="collections-redirect" href="#">
+                                <li>
+                                    <img src="metal-essence.png" class="collections-img">
+                                    <div>Metal Essence</div>
+                                </li>
+                            </a>
+                            <a class="collections-redirect" href="#">
+                                <li>
+                                    <img src="prakriti-collections.jpeg" class="collections-img">
+                                    <div>Prakriti Collection</div>
+                                </li>
+                            </a>
+                        </ul>
+
+                    </nav>
+
+
+
+
+
+
+
+                </div>
+                <a href="#">
+                    <li>Wishlist <i class='bx bxs-heart'></i></li>
+                </a>
+                <a href="#">
+                    <li>Orders <i class="fa-solid fa-bag-shopping"></i></li>
+                </a>
+            </ul>
+        </div>
+
+
+
+
+
+
+        <div class="navbar-navigations">
+            <div class="options home"><a href="#">Home</a></div>
+            <div class="options about"><a href="#">About</a></div>
+            <div class="options collections">
+
+
+
+                <span>Collections</span>
+                <i class='bx bxs-chevron-down'></i>
+                <div class="dots" onclick="this.classList.toggle('active');">
+                    <div class="shadow cut"></div>
+                    <div class="container cut">
+                        <div class="drop cut2"></div>
+                    </div>
+                    <div class="list">
+                        <ul>
+                            <a class="collections-redirect" href="#">
+                                <li>
+                                    <img src="sabai-treasures.png" class="collections-img">
+                                    Sabai Treasures
+                                </li>
+                            </a>
+                            <a class="collections-redirect" href="#">
+                                <li>
+                                    <img src="bamboo-bliss.png" class="collections-img">
+                                    Bamboo Bliss
+                                </li>
+                            </a>
+                            <a class="collections-redirect" href="#">
+                                <li>
+                                    <img src="terra-touch.png" class="collections-img">
+                                    Terra Touch
+                                </li>
+                            </a>
+                            <a class="collections-redirect" href="#">
+                                <li>
+                                    <img src="loom-legacy.png" class="collections-img">
+                                    Loom Legacy
+                                </li>
+                            </a>
+                            <a class="collections-redirect" href="#">
+                                <li>
+                                    <img src="metal-essence.png" class="collections-img">
+                                    Metal Essence
+                                </li>
+                            </a>
+                            <a class="collections-redirect" href="#">
+                                <li>
+                                    <img src="prakriti-collections.jpeg" class="collections-img">
+                                    Prakriti Collection
+                                </li>
+                            </a>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="cursor" onclick="document.querySelector('.dots').classList.toggle('active');"></div>
+
+
+
+
+
+
+            </div>
+            <div class="options contact"><a href="#">Contact</a></div>
+            <div class="options wishlist"><a href="#">Wishlist <i class='bx bxs-heart'></i></a></div>
+            <div class="options orders"><a href="#">Orders</a></div>
+        </div>
+    </div>
+
+    <div class="sabai-heading-wrapper">
+        <div class="sabai-head">terra touch</div>
+        <div class="head-separator"></div>
+        <br>
+        <div class="sabai-overview">
+            <p class="sabai-para">
+                Celebrate the earthy charm of the Terra Touch collection, where ancient pottery techniques meet contemporary aesthetics. Each piece is skillfully hand-molded, bringing the natural beauty of clay into your home, and adding a rustic, yet elegant touch to your décor.
+            </p>
+        </div>
+    </div>
+    <div class="page">
+        <div class="all-products">
+            <div class="actions">
+                <div class="slider" style="margin-left: 2.5rem;"><i class='bx bx-slider-alt'></i></div>
+                <div class="filteration">
+                    <div class="sort-by-pos">
+                        <div class="funnel"><i class="fa-solid fa-filter"></i></div>
+                        <div class="sortby-text">Sort By Position</div>
+                        <div class="drop-down"><i class='bx bxs-chevron-down'></i></div>
+                    </div>
+                    <i class='bx bxs-shopping-bag-alt'></i>
+                </div>
+            </div>
+            <div class="products">
+                <figure>
+                    <img src="img1.jpg" class="figcaption-img">
+                    <figcaption>
+                        <p class="description">
+                            Terra Touch Wall Art Set - Set of 3 Wall Hangings
+                        </p>
+                        <p class="price">
+                            ₹1499
+                        </p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="img2.jpg" class="figcaption-img">
+                    <figcaption>
+                        <p class="description">
+                            Terra Touch Table Vase
+                        </p>
+                        <p class="price">
+                            ₹1999
+                        </p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="img3.jpg" class="figcaption-img">
+                    <figcaption>
+                        <p class="description">
+                            Terra Touch Hanging Planters - Set of 2
+                        </p>
+                        <p class="price">
+                            ₹999
+                        </p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="img4.jpg" class="figcaption-img">
+                    <figcaption>
+                        <p class="description">
+                            Terra Touch Decorative Bowls - Set of 3
+                        </p>
+                        <p class="price">
+                            ₹1199
+                        </p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="img5.jpg" class="figcaption-img">
+                    <figcaption>
+                        <p class="description">
+                            Terra Touch Candle Holders - Set of 4
+                        </p>
+                        <p class="price">
+                            ₹1299
+                        </p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="img6.jpg" class="figcaption-img">
+                    <figcaption>
+                        <p class="description">
+                            Bamboo Bliss Dining Set - Set of 4 Placemats and Coasters
+                        </p>
+                        <p class="price">
+                            ₹1499
+                        </p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="img7.jpg" class="figcaption-img">
+                    <figcaption>
+                        <p class="description">
+                            Terra Touch Storage Jars - Set of 3
+                        </p>
+                        <p class="price">
+                            ₹999
+                        </p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="img8.jpg" class="figcaption-img">
+                    <figcaption>
+                        <p class="description">
+                            Terra Touch Picture Frames - Set of 2
+                        </p>
+                        <p class="price">
+                            ₹1499
+                        </p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div><button class="load-more" onclick="loadMore()">LOAD MORE</button></div>
+            <div class="load-more-message">
+                <h2>You caught us here!</h2>
+                <p>We will be back soon with more such collections.</p>
+            </div>
+
+
+
+        </div>
+
+
+        <div class="line-before-footer"></div>
+
+        <div class="footer-wrapper">
+            <div class="footer-contact">
+                <div class="email">
+                    <i class='fa-solid fa-envelope'></i>
+                    <span>care@prakriti.com</span>
+                </div>
+                <div class="phone-number">
+                    <i class='fa-solid fa-phone'></i>
+                    +91 63768 83999
+                </div>
+            </div>
+            <div class="footer-categories-wrapper footer-head">
+                <h3>Categories</h3>
+                <div style="height: 0.2rem;"></div>
+                <div class="categories"><a href="#">Sabai Treasures</a></div>
+                <div class="categories"><a href="#">Bambooo Bliss</a></div>
+                <div class="categories"><a href="#">Terra Touch</a></div>
+                <div class="categories"><a href="#">Loom Legacy</a></div>
+                <div class="categories"><a href="#">Metal Essence</a></div>
+                <div class="categories"><a href="#">Prakriti Collections</a></div>
+            </div>
+            <div class="footer-information-wrapper footer-head">
+                <h3>Information</h3>
+                <div style="height: 0.2rem;"></div>
+                <div class="information"><a href="#">About</a></div>
+                <div class="information"><a href="#">Contact</a></div>
+                <div class="information"><a href="#">Terms & Conditions</a></div>
+            </div>
+            <div class="footer-quick-links-wrapper footer-head">
+                <h3>Quick Links</h3>
+                <div style="height: 0.2rem;"></div>
+                <div class="quick-links"><a href="#">Orders</a></div>
+                <div class="quick-links"><a href="#">About</a></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        function myFunction(x) {
+            bigNavBar = document.querySelector(".navbar-navigations");
+
+            if (x.matches) {
+                bigNavBar.remove();
+            }
+        }
+
+        var x = window.matchMedia("(max-width: 880px)")
+
+        myFunction(x);
+
+        x.addEventListener("change", function () {
+            myFunction(x);
+        });
+
+
+
+        function loadMore() {
+            console.log("Loading more content...");
+
+            var caughtUpMessage = document.querySelector(".load-more-message");
+            caughtUpMessage.classList.add('show');
+
+            setTimeout(function () {
+                caughtUpMessage.classList.add('hide');
+                setTimeout(function () {
+                    caughtUpMessage.classList.remove('show', 'hide');
+                }, 300); // Wait for the transition to complete before removing classes
+            }, 5000); // 5000 milliseconds = 5 seconds
+        }
+    </script>
+
+</body>
+
+</html>
