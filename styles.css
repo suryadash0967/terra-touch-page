@@ -400,7 +400,6 @@ figure figcaption{
 
 .load-more-message {
     display: none;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
